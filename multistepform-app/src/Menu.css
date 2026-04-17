@@ -35,9 +35,19 @@ span, li {
   font-family: var(--font-family);
   display: flex;
   justify-content: flex-start;
-  margin-left: 2 rem;
+  margin-left: 3rem;
+}
+li {
+  font-size: 14px;
+  font-weight: bold;
+}
+span {
+  font-size: 12px;
+  font-weight: regular;
 }
 
+
 ul {
+  display: flex;
   flex-direction: column;
 }
