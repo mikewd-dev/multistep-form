@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Menu from "./Menu"
 import './App.css'
 import Personal from './Personal'
