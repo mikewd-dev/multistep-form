@@ -1,5 +1,6 @@
 .menu {
-  width: 20vw;
+  height: 553px;
+  width: 274px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius:10px;
@@ -43,7 +44,7 @@ li {
 }
 span {
   font-size: 12px;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 
