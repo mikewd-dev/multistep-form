@@ -1,0 +1,14 @@
+:root {
+  --font-family: 'Ubuntu', 'sans-serif';
+  --button-color: #007bff
+}
+
+body {
+  background-color: #ffff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.layout {
+  display: flex;
+}

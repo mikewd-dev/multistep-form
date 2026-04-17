@@ -1,0 +1,47 @@
+.menu {
+  height: 100vh;
+  width: 20vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu > ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+  left: 0;
+}
+
+.stepsButton {
+  position: relative;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 120%;
+  background: #4895ef;
+  border: 1.5px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  height: 33px;
+  width: 33px;
+  left: 0;
+  margin-left: 0;
+  right: 2rem;
+  top: 2rem;
+}
+
+.stepsButton:hover, .stepsButton:focus {
+  background: #bee2fd;
+}
+
+span, li {
+  display: block;
+}
