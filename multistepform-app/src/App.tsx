@@ -1,12 +1,13 @@
-import Menu from "./Menu"
-import './App.css'
-import Personal from './Personal'
+import Menu from "./Menu";
+import Personal from "./Personal";
+import Plan from "./Plan";
 
 function App() {
   return (
     <div className='layout'>
       <Menu />
-      <Personal />
+      {/* <Personal /> */}
+      <Plan />
     </div>
   )
 }

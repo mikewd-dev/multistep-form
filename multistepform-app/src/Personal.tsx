@@ -1,9 +1,10 @@
 
 import "./Personal.css"
+import "./App.css"
 
 const Personal = () => {
   return (
-    <div className="personal">
+    <div className="main">
       <h2>Personal Information</h2>
       <p>Please provide your name, email address, and phone number.</p>
       <form className="personalForm">
@@ -13,7 +14,7 @@ const Personal = () => {
         </div>
         <div className="field">
           <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="e.g. stephenking@loremcom" required />
+          <input type="email" id="email" name="email" placeholder="e.g. stephenking@lorem.com" required />
         </div>
         <div className="field">
           <label htmlFor="phone">Phone:</label>
