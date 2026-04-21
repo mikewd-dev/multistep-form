@@ -20,7 +20,7 @@ const Plan = () => {
         </div>
       </div>
       <div className="planPeriod">
-        <span>Monthly</span>
+        <span className="periodToggle">Monthly</span>
         <label className="switch">
             <input type="checkbox" />
             <span
@@ -29,7 +29,7 @@ const Plan = () => {
               data-off="Yearly"
             ></span>
         </label>
-        <span>Yearly</span>
+        <span className="periodToggle">Yearly</span>
       </div>
     </div>
   );

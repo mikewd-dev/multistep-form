@@ -38,6 +38,12 @@
   text-align: left;
 }
 
+.periodToggle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
 .switch {
    border-radius: 2.5rem;
