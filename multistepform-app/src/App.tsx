@@ -1,5 +1,5 @@
 import Menu from "./Menu";
-import Personal from "./Personal";
+// import Personal from "./Personal";
 import Plan from "./Plan";
 
 function App() {
