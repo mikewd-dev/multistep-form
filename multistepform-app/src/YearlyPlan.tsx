@@ -1,9 +1,9 @@
-import "./Plan.css";
-import "./App.css";
+import "./MonthlyPlan.scss";
+import "./App.scss";
 import arcadeIcon from "./assets/images/icon-arcade.svg";
 import advancedIcon from "./assets/images/icon-advanced.svg";
 import proIcon from "./assets/images/icon-pro.svg";
-const Plan = () => {
+const YearlyPlan = () => {
   return (
     <div className="main">
       <h2>Select Your Plan</h2>
@@ -11,12 +11,21 @@ const Plan = () => {
       <div className="planSelector">
         <div className="arcade">
           <img src={arcadeIcon} alt="Arcade" />
+          <h3>Arcade</h3>
+          <p>$90/yr</p>
+          <p style={{fontWeight: '600', fontSize: '14px'}}>2 months free</p>
         </div>
         <div className="advanced">
           <img src={advancedIcon} alt="Advanced" />
+          <h3>Advanced</h3>
+          <p>$120/yr</p>
+          <p style={{fontWeight: '600', fontSize: '14px'}}>2 months free</p>
         </div>
         <div className="pro">
           <img src={proIcon} alt="Pro" />
+          <h3>Pro</h3>
+          <p>$150/yr</p>
+          <p style={{fontWeight: '600', fontSize: '14px'}}>2 months free</p>
         </div>
       </div>
       <div className="planPeriod">
@@ -31,7 +40,14 @@ const Plan = () => {
         </label>
         <span className="periodToggle">Yearly</span>
       </div>
+      <div className="buttons">
+        <a type="" className="goBack">
+          Go Back
+        </a>
+        <button className="formButton">Next Step</button>
+      </div>
     </div>
+
   );
 };
-export default Plan;
+export default YearlyPlan;

@@ -1,27 +1,34 @@
 .planSelector {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 3rem;
     width: 450px;
+    height:  160px;
+    margin-bottom: 32px;
 }
 
 .arcade, .advanced, .pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     width:100%;
-    height: 120px;
+    height: 180px;
     border: 1px solid black;
-    border-radius: 0.25rem;
-    padding-top: 6px;
+    padding-left: 16px;
+    border-radius: var(--border-radius);
 }
 
 .planPeriod {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f0f0f0;
+    background-color: var(--background-color);
     width: 450px;
-    height: 50px;
-    border-radius: 0.25rem;
+    height: 48px;
+    border-radius: var(--border-radius);
     margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 0 1rem;
 }
 
@@ -43,10 +50,14 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--font-color);
 }
 
 .switch {
-   border-radius: 2.5rem;
+   border-radius: var(--border-radius);
     position: relative;
     width: 60px;
     height: 30px;
@@ -64,7 +75,7 @@
   position: absolute;
   cursor: pointer;
   inset: 0;
-  background-color: #ccc;
+  background-color: var(--button-color);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -82,11 +93,11 @@
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: var(--button-color);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px var(--button-color);
 }
 
 input:checked + .slider:before {
@@ -98,6 +109,8 @@ input:checked + .slider:before {
 
 .slider.round {
   border-radius: 34px;
+  justify-content: center;
+  margin-left: 0;
 }
 
 .slider.round:before {
@@ -110,5 +123,9 @@ input:checked + .slider:before {
   align-items: center;
   width: 100%;
   height: 100%;
-
 }
+
+img {
+  margin-bottom: 2.5rem;
+}
+

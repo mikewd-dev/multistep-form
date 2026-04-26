@@ -3,7 +3,7 @@
   width: 274px;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius:10px;
+  border-radius:var();
   margin-top: 5px;
   margin-bottom: 5px;
   text-decoration: none;
@@ -18,7 +18,7 @@
   line-height: 120%;
   background: #4895ef;
   border: 1.5px solid black;
-  border-radius: 50%;
+  border-radius: var(--border-radius);
   cursor: pointer;
   color: white;
   height: 33px;

@@ -1,5 +1,6 @@
 
-import "./Menu.css";
+import "./Menu.scss";
+import "./App.scss"
 
 const Menu = () => {
   return (

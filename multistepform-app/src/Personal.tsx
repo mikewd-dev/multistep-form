@@ -1,5 +1,5 @@
 
-import "./Personal.css"
+import "./Personal.scss"
 import "./App.css"
 
 const Personal = () => {

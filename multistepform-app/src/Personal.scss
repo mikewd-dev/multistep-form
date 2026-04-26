@@ -18,8 +18,8 @@ input {
   width: 100%;
   display: block;
   height: 2.5rem;
-  border-radius: 0.25rem;
-  background-color: #fff;
+  border-radius: var(--border-radius);
+  background-color: var(--background-color);
   box-sizing: border-box;
 }
 
